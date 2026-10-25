@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/wkdocops/__init__.py
+src/wkdocops/cli.py
+src/wkdocops.egg-info/PKG-INFO
+src/wkdocops.egg-info/SOURCES.txt
+src/wkdocops.egg-info/dependency_links.txt
+src/wkdocops.egg-info/entry_points.txt
+src/wkdocops.egg-info/top_level.txt
+tests/test_cli.py

@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "wkdocops"
+version = "0.1.0"
+description = "Evidence-first docs-as-code quality gates"
+requires-python = ">=3.10"
+[project.scripts]
+wkdocops = "wkdocops.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
